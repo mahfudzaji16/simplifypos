@@ -166,7 +166,7 @@ class PAController{
         
         $paData=array_slice($paData,$limitStart,maxDataInAPage());   
         
-        view('product/index',compact('productCat', 'sumOfAllData', 'pages', 'roleOfUser', 'vendors', 'products', 'paData'));
+        view('product/index',compact('productCat', 'sumOfAllData', 'pages', 'roleOfUser', 'products', 'paData'));
 
     }
 
