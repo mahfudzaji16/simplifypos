@@ -326,11 +326,11 @@ class UserController{
             $mail->isHTML(true);                                  
 
             $mail->Subject = 'Confirmation link to activate account';
-            $mail->Body    = "To activate your account please go to this <a href=sentra.kerjainserver.com/confirmation?c=$link&u=$email>link</a>.";
+            $mail->Body    = "To activate your account please go to this <a href=simplifypos.kerjainserver.com/confirmation?c=$link&u=$email>link</a>.";
             $mail->AltBody = '';
 
             if(!$mail->send()) {
-                $_SESSION['sim-messages']=[['Maaf, pendaftaran gagal. Link aktivasi akun gagal dikirim. Cek koneksi internet anda.','Mailer Error: ' . $mail->ErrorInfo, 0]];
+                $_SESSION['sim-messages']=[['Maaf, pendaftaran gagal. Link aktivasi akun gagal dikirim.','Mailer Error: ' . $mail->ErrorInfo, 0]];
                 return false;
             } else {
                 //$_SESSION['sim-messages']=[['Link aktivasi akun anda telah dikirim ke email.', 1]];
