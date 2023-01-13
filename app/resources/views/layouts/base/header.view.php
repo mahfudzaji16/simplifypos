@@ -7,7 +7,7 @@ require 'only-header.view.php';
         <div class="container-fluid">
             
             <ul>
-                <li><a href="/home">Home</a></li>
+                <!-- <li><a href="/home">Home</a></li> -->
                 
                 <li><a href="#">Form<span class="caret"></span></a>
                     <ul class="dropdown">
@@ -35,7 +35,7 @@ require 'only-header.view.php';
                         <li><a href='/stock/history'>History</a></li>
                     </ul>
                 </li>
-                <li><a href="/project">Project</a></li>
+                <!-- <li><a href="/project">Project</a></li> -->
                 <!-- <li><a href='/upload'>Unggah data</a></li> -->
                 <!-- <li><a href='/engineering'>Engineer</a></li> -->
                 

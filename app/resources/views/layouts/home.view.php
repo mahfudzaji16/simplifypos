@@ -21,7 +21,7 @@ require 'base/header.view.php';
         
         <div class='welcome text-center'>
             <h2>Hello, Selamat datang di <span class="label label-success">Simplify</span>, <?= ucfirst($_SESSION['sim-name']); ?></h2>
-            <h4 style="margin-top:20px;">Aplikasi yang didesain untuk memudahkan operasional perkantoran</h4>
+            <!-- <h4 style="margin-top:20px;">Aplikasi POS dan manajemen perkantoran</h4> -->
         </div>
 
         <!-- <div style="margin-top:20px;display: flex;align-content: center;flex-wrap: wrap;flex-direction: row; justify-content: space-around;">
