@@ -85,7 +85,7 @@
                             </tr>
                             <tr>
                                 <td>Logo</td>
-                                <td><img src="<?= 'simplifypos.kerjainserver.com/public/upload/'.$partner[0]->upload_file; ?>" class="img-responsive"></td>
+                                <td><img src="<?= 'https://simplifypos.kerjainserver.com/public/upload/'.$partner[0]->upload_file; ?>" class="img-responsive" style="max-width:120px;"></td>
                             </tr>
                             <tr>
                                 <td>Keterangan</td>
