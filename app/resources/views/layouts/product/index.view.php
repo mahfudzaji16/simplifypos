@@ -260,7 +260,7 @@ require base.'base/header.view.php';
                         <?php for($j=0; $j<count($prods); $j++): ?> 
                             <div class="product">
                                 <ul>
-                                    <li class="btn-modal" id="<?= $prods[$j]['id']; ?>" data-pn="<?= $prods[$j]['part_number']; ?>" data-desc="<?= $prods[$j]['desc']; ?>" data-id="update-product"><span><?= $prods[$j]['prod']; ?></span><a href="<?= ''.$prods[$j]['link']; ?>" class="text-right" target="_blank" style="float:right; display:inline-block"><span class="glyphicon glyphicon-new-window"></span></a></li>  
+                                    <li class="btn-modal" id="<?= $prods[$j]['id']; ?>" data-pn="<?= $prods[$j]['part_number']; ?>" data-desc="<?= $prods[$j]['desc']; ?>" data-id="update-product"><span><?= $prods[$j]['prod']; ?></span><a href="<?= 'https://'.$prods[$j]['link']; ?>" class="text-right" target="_blank" style="float:right; display:inline-block"><span class="glyphicon glyphicon-new-window"></span></a></li>  
                                 </ul>
                             </div>
                         <?php endfor; ?>
