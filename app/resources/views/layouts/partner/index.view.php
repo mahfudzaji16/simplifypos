@@ -130,7 +130,7 @@ require base.'base/header.view.php';
                                     <th>Province</th>
                                     <th>Phone</th>
                                     <th>Email</th>
-                                    <th>Relation</th>
+                                    <!-- <th>Relation</th> -->
                                     <!-- <th>Active</th> -->
                                 </tr>
                             </thead>
@@ -152,7 +152,7 @@ require base.'base/header.view.php';
                                         <td><?= ucwords($data->province); ?></td>
                                         <td><?= $data->phone; ?></td>
                                         <td><?= $data->email; ?></td>
-                                        <td><?= makeFirstLetterUpper($data->relationship); ?></td>
+                                        <!-- <td><?= makeFirstLetterUpper($data->relationship); ?></td> -->
                                         <!-- <td><button type="button" name="toggle-class" class="btn btn-sm btn-default"><?= $data->active; ?></button></td> -->
                                     <tr>
                                 <?php endforeach; ?>

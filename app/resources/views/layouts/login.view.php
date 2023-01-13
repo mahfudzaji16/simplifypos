@@ -6,8 +6,7 @@
     <div class="container-fluid">
         <h1>login page</h1>
         <div class='welcome'>
-            <h2>Selamat datang di Simplify</h2>
-            <p>aplikasi ini didesain untuk memudahkan operasional admin</p>
+            <h2>Selamat datang di SimplifyPOS</h2>
         </div>
         <div class='login'>
             <button type='button' class='btn btn-default' id='btn-login'>Login</button>

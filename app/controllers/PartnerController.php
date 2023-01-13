@@ -35,7 +35,6 @@ class PartnerController{
     }
 
     public function index(){
- 
         $builder=App::get('builder');
 
         $products=$builder->getAllData('products', 'Product');

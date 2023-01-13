@@ -20,8 +20,8 @@ class Router{
             return $this->process($this->links[$requestType][$uri]);
         }
 
-        redirect('/404');
-        exit();
+        // redirect('/404');
+        // exit();
 
         //throw new Exception("No route");
     }
