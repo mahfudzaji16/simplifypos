@@ -2015,7 +2015,7 @@ class FormController{
         INNER JOIN products as c on b.product=c.id 
         WHERE a.id=$id", "Document");
 
-        view('form/receipt_form_detail', compact('receiptData', 'receiptItems', 'receivedItems', 'attachments', 'uploadFiles', 'partners', 'products'));
+        view('form/receipt_form_detail', compact('receiptData', 'receiptItems', 'attachments', 'uploadFiles', 'partners', 'products'));
     }
 
     public function receiptFormUpdate(){
