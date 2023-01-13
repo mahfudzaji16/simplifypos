@@ -39,12 +39,12 @@ require 'base/header.view.php';
                         <label>Password</label>
                         <input type='password' class="form-control" name='password' placeholder='Password' required> 
                     </div>
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <div class="g-recaptcha" data-sitekey="<?= $recaptcha['siteKey']; ?>"></div>
                         <script type="text/javascript"
                                 src="https://www.google.com/recaptcha/api.js?hl=<?= $recaptcha['lang']; ?>">
                         </script>
-                    </div>
+                    </div> -->
                     <button type='submit' name='login' class='btn btn-primary'>Login</button>
                     <button class="btn btn-link btn-modal" id="btn-forget" style="float:right">Lupa password?</button>
                 </form>
