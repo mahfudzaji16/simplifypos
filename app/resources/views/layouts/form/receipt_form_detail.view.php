@@ -414,7 +414,7 @@ $printBtn = false;
 
 $(document).ready(function(){
 
-    $('#remark').trumbowyg();
+    // $('#remark').trumbowyg();
 
     /* SHOW ATTACHMENT */
     $("select[name~='attachment']").on("change", function(){
@@ -490,8 +490,8 @@ $(document).ready(function(){
         }
 
         var remark = data.find("[data-item~='remark']").html();
-        $("#modal-update-receipt-form").find("#remark").trumbowyg('html', remark);
-		$("#modal-update-receipt-form").find("#remark").trumbowyg('html');
+        // $("#modal-update-receipt-form").find("#remark").trumbowyg('html', remark);
+		// $("#modal-update-receipt-form").find("#remark").trumbowyg('html');
 
         var placeholderForm2=["supplier", "buyer", "currency"];
         for(var i=0;i<placeholderForm2.length;i++){

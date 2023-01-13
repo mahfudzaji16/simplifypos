@@ -27,7 +27,7 @@ ini_set("display_errors",1);
 
     <script src="/public/vendor/bootstrap/js/bootstrap.js"></script>
 
-    <link rel="stylesheet" href="/public/vendor/trumbowyg/dist/ui/trumbowyg.min.css">
+    <link type="text/css" rel="stylesheet" href="/public/vendor/trumbowyg/dist/ui/trumbowyg.min.css">
 
 
     <!-- Custom css -->
