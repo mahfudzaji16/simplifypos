@@ -287,6 +287,7 @@ class PartnerController{
         c.id as pid, 
         d.relationship,
         d.id as rid,
+        g.upload_file,
         e.name as created_by, 
         f.name as updated_by,  
         CASE a.active when 0 then 'Aktifkan' else 'Non-aktifkan' end AS status
@@ -296,6 +297,7 @@ class PartnerController{
         INNER JOIN relationships as d on a.relationship=d.id 
         INNER JOIN users as e on a.created_by=e.id 
         INNER JOIN users as f on a.updated_by=f.id 
+        INNER JOIN upload_files as g on a.logo=g.id
         WHERE a.id=$id
         LIMIT 10";
 

@@ -84,6 +84,10 @@
                                 <td data-item="email"><?= ucfirst($partner[0]->email); ?></td>
                             </tr>
                             <tr>
+                                <td>Logo</td>
+                                <td><img src="<?= 'simplifypos.kerjainserver.com/public/upload/'.$partner[0]->upload_file; ?>" class="img-responsive"></td>
+                            </tr>
+                            <tr>
                                 <td>Keterangan</td>
                                 <td data-item="remark"><?= ($partner[0]->remark==null || empty($partner[0]->remark))?"-":$partner[0]->remark; ?></td>
                             </tr>
