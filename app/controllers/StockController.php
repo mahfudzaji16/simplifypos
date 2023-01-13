@@ -53,7 +53,7 @@ class StockController{
 
         $products=$builder->getAllData('products', 'Product');
 
-        $vendors = $builder->getAllData("vendors", "Product");
+        #$vendors = $builder->getAllData("vendors", "Product");
 
         //Searching for specific category
         //category: status, ownership, delivered_date, product, is it receive form or do?
@@ -152,7 +152,7 @@ class StockController{
         
         $stocksData=array_slice($stocksData,$limitStart,maxDataInAPage());
 
-        view('stock/index', compact('stocksData', 'partners', 'approvalPerson', 'products', 'vendors', 'pages', 'servicePoints', 'sumOfAllData', 'category'));
+        view('stock/index', compact('stocksData', 'products', 'pages', 'servicePoints', 'sumOfAllData', 'category'));
     
     }
 
