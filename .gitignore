@@ -2,7 +2,8 @@ config.php
 composer.*
 .htaccess*
 log/*
-ciphertext.txt
+*.txt
+txt/*
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
