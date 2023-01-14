@@ -210,7 +210,7 @@ class UserController{
         $email=filterUserInput($_POST['email']);
         $department=filterUserInput($_POST['department']);
         $link=uniqid();
-
+        dd("test");
         /*
         $validasi=Auth::validate([$name,$password,$email],[
             'username'=>'required',
@@ -315,7 +315,6 @@ class UserController{
         $result=$builder->insert('users', $parameters);
 
         if($result){
-
             //send verification mail
             $mail = App::get('mail');
 

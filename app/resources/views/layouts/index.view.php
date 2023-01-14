@@ -12,7 +12,7 @@ require 'base/header.view.php';
 
         <div class='welcome'>
             <h2>Hello, Selamat datang di <span class="label label-success">Simplify</span></h2>
-            <h4 style="margin-top:20px;">Aplikasi yang didesain untuk memudahkan operasional perkantoran</h4>
+            <h4 style="margin-top:20px;">Aplikasi yang didesain untuk memudahkan operasional toko dan perkantoran</h4>
         </div>
 
         <button type='button' class='btn btn-default btn-modal' id='btn-login'>Mulai disini</button>
