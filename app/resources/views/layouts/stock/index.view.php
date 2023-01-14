@@ -32,7 +32,7 @@ require base.'base/header.view.php';
                         </select>
                     </div>
                 </div>
-                <div class="search" id="date-based" style="position:relative">
+                <!-- <div class="search" id="date-based" style="position:relative">
                     <button type="button" class="btn btn-default" id="btn-date-based">TANGGAL</button>
                     <div class="form-group" style="position: absolute;left: 50%;margin-top: 5px;transform: translateX(-50%);z-index: 5;display: none;width: 400px;">
                         <div class="row">
@@ -44,7 +44,7 @@ require base.'base/header.view.php';
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="search">
                     <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button> 
                 </div>     

@@ -118,6 +118,7 @@ class StockController{
         GROUP BY b.category
         ORDER BY d.name asc", 'Stock');
 
+
         //download all the data
         if(isset($_GET['download']) && $_GET['download']==true){
             
@@ -274,7 +275,7 @@ class StockController{
         
         $stockData=array_slice($stockData,$limitStart,maxDataInAPage());
 
-        view('stock/history', compact('stockData', 'partners', 'products', 'pages', 'sumOfAllData', 'category'));
+        view('stock/history', compact('stockData', 'products', 'pages', 'sumOfAllData', 'category'));
     
     }
 
