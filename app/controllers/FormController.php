@@ -3401,7 +3401,7 @@ class FormController{
 
         setSearchPage();
         
-        view('form/po_form', compact('poData', 'partners', 'approvalPerson', 'products', 'pages', 'sumOfAllData', 'quoData', 'poWithQuoData', 'parameterData'));
+        view('form/po_form', compact('poData', 'partners', 'approvalPerson', 'products', 'pages', 'sumOfAllData', 'parameterData'));
         
     }
 
