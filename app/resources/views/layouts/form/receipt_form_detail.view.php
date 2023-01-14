@@ -132,8 +132,8 @@ $printBtn = false;
                     
                     <div class="form-group">
                         <label>Keterangan</label>
-                        <!-- <textarea name="remark" class="form-control" placeholder="Keterangan tambahan"></textarea> -->
-                        <div id="remark"></div>
+                        <textarea name="remark" class="form-control" placeholder="Keterangan tambahan"></textarea>
+                        <!-- <div id="remark"></div> -->
                     </div>
                     <button type="button" class="btn btn-danger btn-close" >Tutup</button>
 
